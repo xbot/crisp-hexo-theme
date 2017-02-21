@@ -1,0 +1,20 @@
+<% var year=false %>
+<% site.posts.sort('date', 'desc').each(function(post) { %>
+
+<% if (year != post.date.year()) { %>
+<% year = post.date.year() %>
+<section>
+<h2>
+<%= year %>
+</h2>
+</section>
+<% } %>
+
+<section id="{{id}}" class="{{post_class}}">
+  <h6 class="post-title archive-post-title">
+  <a href="<%- config.root %><%- post.path %>"><%- post.title %></a>
+  <span class="separator"> &middot; </span>
+  </h6>
+</section>
+
+<% }); %>

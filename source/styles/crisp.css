@@ -464,3 +464,20 @@ pre .keyword,
 pre .javascript .function {
   color: #c9c;
 }
+
+.archive-post-title {
+    margin-top: 0em;
+    margin-bottom: 0.3em;
+}
+
+.search-form-input {
+    border: none;
+    -webkit-appearance: none;
+    font-size: 1.2em;
+    width: 100%;
+}
+.search-form input::-webkit-search-decoration,
+.search-form input::-webkit-search-results-button,
+.search-form input::-webkit-search-results-decoration {
+    display: none;
+}

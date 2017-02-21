@@ -1,12 +1,12 @@
-logo: /asset/guolin.png
+logo: /asset/logo.jpg
 rss: /atom.xml
-disqus:
+disqus: "0x3f"
 google_analytics:
 
 # Social accounts
 instagram:
 pinterest:
-github:
+github: xbot
 facebook:
-twitter:
+twitter: leninlee
 linkedin:
