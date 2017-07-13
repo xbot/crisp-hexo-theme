@@ -408,6 +408,14 @@ footer a:hover {
 .article-entry .gist .gist-file .gist-meta a:hover {
   text-decoration: underline;
 }
+.article-entry table, th, td {
+    border: 1px solid grey;
+    border-spacing: 0px;
+    font-size: 0.9em;
+}
+.article-entry td {
+    padding: 0 0.3em;
+}
 pre .comment,
 pre .title {
   color: #999;
