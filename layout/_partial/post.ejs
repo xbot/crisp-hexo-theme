@@ -28,13 +28,13 @@
 <nav class="pagination" role="pagination">
     <% if (page.prev) { %>
     <a class="newer-posts" href="<%- url_for(page.prev.path) %>">
-        ← prev <!--<%- page.prev.title %>-->
+        ← 新 <!--<%- page.prev.title %>-->
     </a>
     <% } %>
     <span class="page-number">•</span>
     <% if (page.next) { %>
     <a class="older-posts" href="<%- url_for(page.next.path) %>">
-        <!--<%- page.next.title %>--> next →
+        <!--<%- page.next.title %>--> 舊 →
     </a>
     <% } %>
 </nav>
